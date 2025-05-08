@@ -3,24 +3,24 @@
 
 int main() 
 { 
-    int a, s, m, d, mo, n1, n2; 
+    int w, x, y, z, z2, n1, n2; 
     printf("\n Digite o primeiro valor: "); 
     scanf("%d", &nl); 
     
     printf("\nDigite o segundo numero: "); 
     scanf("%d", &n2); 
     
-    a = nl + n2; 
-    s = n1 - n2; 
-    m = nl * n2; 
-    d = nl / n2; 
-    mo = nl % n2; 
+    w = nl + n2; 
+    x = n1 - n2; 
+    w = nl * n2; 
+    z = nl / n2; 
+    z2 = nl % n2; 
     
-    printf("\n %d + %d = %d", nl,n2,a); 
-    printf("\n %d - %d = %d", nl,n2,s); 
-    printf("\n %d * %d = %d", nl,n2,m); 
-    printf("\n %d / %d = %d", nl,n2,d); 
-    printf("\n %d %% %d = %d", nl,n2,mo); 
+    printf("\n %d + %d = %d", nl,n2,w); 
+    printf("\n %d - %d = %d", nl,n2,x); 
+    printf("\n %d * %d = %d", nl,n2,y); 
+    printf("\n %d / %d = %d", nl,n2,z); 
+    printf("\n %d %% %d = %d", nl,n2,z2); 
     
     return 0; 
 }
